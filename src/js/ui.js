@@ -73,8 +73,8 @@ data["algorithm-simple"] = { "ja-JP": "最短経路", "zh-TW": "最短路徑", "
 data["algorithm-nogold"] = { "ja-JP": "最低金メダル", "zh-TW": "最少金質勳章", "en-US": "Minimum Golden Badge", "zh-CN": "最少金质勋章" };
 data["algorithm-custom"] = { "ja-JP": "カスタム", "zh-TW": "自定義", "en-US": "Custom", "zh-CN": "自定义" };
 data["weight"] = { "ja-JP": "比重", "zh-TW": "權重", "en-US": "Weights", "zh-CN": "权重" };
-data["contribution"] = { "ja-JP": "貢献", "zh-TW": "貢獻", "en-US": "Contribution", "zh-CN": "贡献" };
-data["goldmedal"] = { "ja-JP": "金盾", "zh-TW": "金質勳章", "en-US": "Golden Badge", "zh-CN": "金质勋章" };
+data["contribution"] = { "ja-JP": "貢献", "zh-TW": "貢獻", "en-US": "Contribution", "zh-CN": "Contribution" };
+data["goldmedal"] = { "ja-JP": "金盾", "zh-TW": "金質勳章", "en-US": "Golden Badge", "zh-CN": "Gold Medal" };
 data["selected"] = { "ja-JP": "保存済：", "zh-TW": "已選：", "en-US": "Selected:", "zh-CN": "已选：" };
 data["currentselected"] = { "ja-JP": "現選択：", "zh-TW": "本次：", "en-US": "Current:", "zh-CN": "本次：" };
 data["saveimage"] = { "ja-JP": "画像生成", "zh-TW": "生成全符文圖片", "en-US": "Generate all rune image", "zh-CN": "生成全符文图片" };
@@ -245,7 +245,40 @@ var EquipEffect = {
         MDamReduc: "魔ダメ軽減",
         RefineDamReduc: "精錬物ダメ耐性",
         RefineMDamReduc: "精錬魔ダメ耐性",
-    }
+    },
+	"en-US": {
+        Atk: "Physical Attack",
+        Def: "Physical Defense",
+        MAtk: "Magic Attack",
+        MDef: "Magic Defense",
+        MaxHp: "Maximum HP",
+        MaxHpPer: "% Maximum HP",
+        Str: "Str",
+        Int: "Int",
+        Vit: "Vit",
+        Agi: "Agi",
+        Dex: "Dex",
+        Luk: "Luk",
+        AtkPer: "% Physical Attack",
+        DefPer: "% Physical Defense",
+        MAtkPer: "% Magic Attack",
+        MDefPer: "% Magic Defense",
+        Hit: "Hit",
+        Flee: "Flee",
+        Cri: "Critical",
+        CriRes: "Critical Resistance",
+        AtkSpd: "Equipment Attack Speed",
+        MoveSpd: "Movement Speed",
+        CastSpd: "Cast Speed",
+        Refine: "Refine Physical Attack",
+        MRefine: "Refine Magic Attack",
+        DamIncrease: "物伤加成",
+        MDamIncrease: "魔伤加成",
+        DamReduc: "物伤减免",
+        MDamReduc: "魔伤减免",
+        RefineDamReduc: "精炼物免",
+        RefineMDamReduc: "精炼魔免",
+    },
 }
 var getEquipEffect = function (key) {
     if (!EquipEffect[getLang()]) {

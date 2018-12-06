@@ -278,6 +278,7 @@ var render = function (id, savedata) {
 
     $('#txtSearch').empty();
     _.each(Data.getAllRuneDescNameByTypeBranch(typeBranch), function (o, i) {
+		console.log(o);
         $('#txtSearch').append($('<option>').text(o).val(o));
     });
     $('.selectpicker').selectpicker('refresh');
