@@ -183,7 +183,7 @@
 	{"Id":41001,"RuneName":"Arrow Shower I","Runetip":4000,"SkillTipParm":[5.0]},
 	{"Id":41002,"RuneName":"Arrow Shower II","Runetip":4000,"SkillTipParm":[10.0]},
 	{"Id":41005,"RuneName":"Arrow Shower V","Runetip":4001,"SkillTipParm":[2.0]},
-	{"Id":41006,"RuneName":"火Arrow Shower","Runetip":4002,"SkillTipParm":null},
+	{"Id":41006,"RuneName":"Flaming Arrow Shower","Runetip":4002,"SkillTipParm":null},
 	{"Id":41007,"RuneName":"火爆发","Runetip":4003,"SkillTipParm":[10.0,50.0]},
 	{"Id":41008,"RuneName":"元素箭矢Ⅰ","Runetip":4004,"SkillTipParm":[0.75]},
 	{"Id":41009,"RuneName":"元素箭矢Ⅱ","Runetip":4004,"SkillTipParm":[1.5]},
